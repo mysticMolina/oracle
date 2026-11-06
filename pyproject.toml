@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oracle-python-port"
+version = "0.2.0"
+description = "Python ORACLE Dirac-Maxwell reference solver"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.10"]
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.7", "imageio-ffmpeg>=0.6", "h5py>=3.8"]
+test = ["pytest>=8", "matplotlib>=3.7", "imageio-ffmpeg>=0.6", "h5py>=3.8"]
+
+[project.scripts]
+oracle-campaign = "oracle_py.campaign:main"
+
+[tool.setuptools]
+packages = ["oracle_py", "analysis_suite"]

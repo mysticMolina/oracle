@@ -1,0 +1,27 @@
+{
+  "fixture": "spatial_7x5_physical_c.mat",
+  "fixture_sha256": "5047cf03a921f84ebaa6f44fdfd66af08c5362cad00f3ea451aef87a26741e0c",
+  "source_commit": "03b0f172e8cf3e324365b6d27deea47a44ecd794",
+  "export_checkout_commit": "dc63a71f0a9a880128c48e5a6a53a9ecc57c91ad",
+  "matlab_release": "R2025b",
+  "date": "2026-11-05",
+  "ordering": "x fastest, component major",
+  "scope": "7x5 anisotropic planar synthetic state at physical c; not a production initialization or coupled timestep",
+  "source_sha256": {
+    "matlabSolver/diracMaxwellDifferentialOperators.m": "6ea4638dec60b96f745727e9a60602893e5f0372d4a40201294906bd6e7e832e",
+    "matlabSolver/diracCompatibleMaxwell.m": "6fd27fb6f923d6fc1f0cc0d1eebd4c39885867dfa3b7fe992f80c3a548a7b954",
+    "matlabSolver/diracSpatialHamiltonian.m": "0ebeec6ca042f0b28faf68261a4034efe9fb4e94ef91559aeeebdfca4b2769cd",
+    "matlabSolver/diracFullMatterData.m": "e3d818c962484e8a7e36670cfc6fd5973cab6a4a2638856264eb06c6f4e8f0d0",
+    "matlabSolver/diracFullMatterStep.m": "a748c9942c249956401a6329a9486ce7a233c0338b3ea329ad99ac978ea73657",
+    "matlabSolver/diracMaxwellContext.m": "ad9856dcfc5a9c2d25cb2da2ad9ca256caf9e95a9c24652de08280d34f694297",
+    "matlabSolver/diracMatrices.m": "59fa02ff1421f507eae9eee864cfe26ba929c9e382e44dc12b285fa31129333d",
+    "matlabSolver/diracCurrent.m": "abe2fd3d90f563ae8ebb5442a64eb50a8d407babf62e32f09afb4363a5aa3167"
+  },
+  "exporter_sha256": "80c43024651eafe3761d39e058860162262521938530b13e102014ec6d4782e6",
+  "source_verification": {
+    "date": "2026-11-05",
+    "active_worktree": "ORACLE-ScaleUp-20261101",
+    "all_listed_files_match_active_worktree_and_source_commit": true,
+    "excluded": "GPU GMRES and MATLAB solver-library internals; fixture uses CPU LU"
+  }
+}

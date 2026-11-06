@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "For the SPHINX method, cite Molina and Qin (2026), arXiv:2602.17429."
+type: software
+title: ORACLE
+license: Apache-2.0
+authors:
+  - family-names: Molina
+    given-names: Jacob Matthew
+repository-code: https://github.com/mysticMolina/oracle

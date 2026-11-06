@@ -1,0 +1,41 @@
+{
+  "fixture": "mur_7x5_physical_c.mat",
+  "fixture_sha256": "4bd91b8b6068a3faebe87fe68ffa213c07aa4f7a75a3b386bfd4e45bf59f2e88",
+  "source_commit": "03b0f172e8cf3e324365b6d27deea47a44ecd794",
+  "export_checkout_commit": "5accfdac9f065d04b5bec74a548faf3d4a833938",
+  "matlab_release": "R2025b",
+  "date": "2026-11-05",
+  "ordering": "x fastest, component major",
+  "scope": "7x5 anisotropic planar single-species synthetic state at physical c; grounded/free-space Mur-1; QM/EM/both 1 and 3 steps, projection on/off. Not production physics acceptance.",
+  "source_sha256": {
+    "matlabSolver/diracMaxwellDifferentialOperators.m": "6ea4638dec60b96f745727e9a60602893e5f0372d4a40201294906bd6e7e832e",
+    "matlabSolver/diracCompatibleMaxwell.m": "6fd27fb6f923d6fc1f0cc0d1eebd4c39885867dfa3b7fe992f80c3a548a7b954",
+    "matlabSolver/diracSpatialHamiltonian.m": "0ebeec6ca042f0b28faf68261a4034efe9fb4e94ef91559aeeebdfca4b2769cd",
+    "matlabSolver/diracFullMatterData.m": "e3d818c962484e8a7e36670cfc6fd5973cab6a4a2638856264eb06c6f4e8f0d0",
+    "matlabSolver/diracFullMatterStep.m": "a748c9942c249956401a6329a9486ce7a233c0338b3ea329ad99ac978ea73657",
+    "matlabSolver/diracMaxwellContext.m": "ad9856dcfc5a9c2d25cb2da2ad9ca256caf9e95a9c24652de08280d34f694297",
+    "matlabSolver/diracMatrices.m": "59fa02ff1421f507eae9eee864cfe26ba929c9e382e44dc12b285fa31129333d",
+    "matlabSolver/diracCurrent.m": "abe2fd3d90f563ae8ebb5442a64eb50a8d407babf62e32f09afb4363a5aa3167",
+    "matlabSolver/diracChargeDensity.m": "bf20b176b15339d3267b3150aed13db764231ba95e6c68bb29c4592b3f0d86f6",
+    "matlabSolver/diracMurContextND.m": "fea2d1e05010e3feaf56de421f67192c1d5897a75f9beedc8a95513a72291fd7",
+    "matlabSolver/diracMurInitialize.m": "1ba275ba571fc3d5d5b50d54b180c930057eb3dbc0ef684b26b89ae5f130a5c7",
+    "matlabSolver/diracMurReferenceField.m": "f55c9d2ce4c35fa9fe0a6d326fb4f8e764f4fa0290b8450ccc0f490db15a784b",
+    "matlabSolver/diracLongitudinalField.m": "1e6742a4a912f752af25431ecc4cdba0a05fd9d8ef15eb488e171b2dcd4e179a",
+    "matlabSolver/diracMurFieldStep.m": "ffc4cda7ab5564a86c556c8ba461e57eb188b9a4bdedbceffb87cde4147d0502",
+    "matlabSolver/diracGaussProject.m": "441e8f8efca9458ee72ec8c5adfca07e6f06c797dff417e051482f07701e5d72",
+    "matlabSolver/diracMaxwellStep.m": "4803a75ff94f676e0ca06b677401478f805415d49e2281183655236bb757f683",
+    "matlabSolver/packDiracField.m": "364e418084275f4acce763e9475795518c19c1cd4ef86769c33ca82e0e824954",
+    "matlabSolver/unpackDiracField.m": "8cc8ee5d6f612c1d94e41f016230a1136c285881634d5bf60d0a2c611c5eb908"
+  },
+  "exporter_sha256": "1c7ab21e5f6e3ad23175ce968829f9e231ff80232ecb5cc66adadd34f7380bd5",
+  "source_verification": {
+    "date": "2026-11-05",
+    "active_worktree": "ORACLE-ScaleUp-20261101",
+    "all_listed_files_match_active_worktree_and_source_commit": true,
+    "excluded": "GPU GMRES and MATLAB solver-library internals; fixture uses CPU LU"
+  },
+  "python_environment": {
+    "numpy": "2.5.1",
+    "scipy": "1.18.0"
+  }
+}

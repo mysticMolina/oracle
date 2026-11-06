@@ -1,0 +1,35 @@
+{
+  "name": "physical_c_B200_inside_tightbox09_cpu129_long100_box26r",
+  "family": "ll",
+  "side": "inside",
+  "tier": "preliminary_cpu_coarse",
+  "c": 137.035999084,
+  "B": 200.0,
+  "radius": 0.33541019662496846,
+  "norm": 0.1,
+  "grid": 125,
+  "half": 0.8720665112249181,
+  "beta_target": 0.4373444923186617,
+  "chi_B": 0.005179437473635222,
+  "tau_omega_gamma": 5.761466002127739e-05,
+  "reference_period": 0.035052818267537166,
+  "periods": 100,
+  "dt": 4.6737091023382885e-05,
+  "steps": 75000,
+  "target_time": 3.5052818267537162,
+  "saved_intervals": 1000,
+  "boundary": {
+    "type": "mur1",
+    "longitudinal": "grounded"
+  },
+  "screen": {
+    "maxHighKFraction": 0.01,
+    "maxRelativeEnergyBalance": 0.001
+  },
+  "resources": {
+    "cpus": 1,
+    "workers": 1,
+    "memoryGB": 16,
+    "hours": 12
+  }
+}
